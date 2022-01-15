@@ -4,34 +4,41 @@ import React, {useState, useEffect} from "react";
 
 
 function Nav(props){
-    const {
-        contactSelected,
-        setContactSelected,
-        categories = [],
-        setCurrentCategory,
-        currentCategory
-    } = props
-
-
-    useEffect(() => {
-        document.title = (currentCategory.name);
-      }, [currentCategory]);
     
+const tab = ["About", "Contact", "Projects", "Resume"]
     return(
         <header className="header">
+            
             <ul>
-            <a data-testid="link" href="/">
+             <a data-testid="link" href="/">
                 <h1>Jovan </h1>
                 <h1>Norrington</h1>
             </a>
-            <a data-testid="about" href="#about"   onClick={() => setContactSelected(false)}>
-                <li className="about-header">About</li>
+            {tab.map(tabs => (
+        <li className="nav-item" key={tabs}>
+          <a
+            href={'#' + tabs.toLowerCase()}
+            onClick={() => props.handlePageChange(tabs)}
+            className={"NAV-LI"
+            }
+          >
+            {tabs}
+          </a>
+        </li>
+      ))}
+            {/* <a data-testid="link" href="/">
+                <h1>Jovan </h1>
+                <h1>Norrington</h1>
+            </a>
+            <a data-testid="about" href="#about"  >
+                <li className="about-header"
+                >About</li>
                 </a>
-            <a data-testid="contact"  onClick={() => setContactSelected(true)}>
+            <a data-testid="contact" >
                 <li className="contact-header">Contact Me</li>
                 </a>
                 <li className="project-header">Projects</li>
-                <li className="resume-header">Resume</li>
+                <li className="resume-header">Resume</li> */}
               
            </ul>
         </header>

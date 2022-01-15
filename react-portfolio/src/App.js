@@ -1,41 +1,38 @@
-import { useState } from 'react';
+import  react, { useState, useEffect } from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import ContactForm from './components/Contact';
-import About from './components/About';
+import ContactForm from './components/pages/Contact';
+import About from './components/pages/About';
 import Footer from './components/Footer';
 
 
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'About',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+
+  const [currentPage, handlePageChange] = useState('About');
+
+useEffect(()=>{
+  document.title = currentPage
+})
+
+  const renderPage = (currentPage) =>{
+    switch (currentPage){
+case "Contact":
+  return <ContactForm></ContactForm>;
+  default: return <About></About>
     }
-  ]);
+  }
 
 
-  const [contactSelected, setContactSelected] = useState(false);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <div>
       <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
+      currentPage={currentPage}
+      handlePageChange={handlePageChange}
+       
       ></Nav>
     <main>
-    {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          )}
+   {renderPage()}
     </main>
     <Footer></Footer>
     </div>
