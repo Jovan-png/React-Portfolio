@@ -1,6 +1,7 @@
 * {
   padding: 0;
 }
+
 body {
   margin: 0;
 
@@ -85,4 +86,10 @@ code {
 .footer ul li:hover::after {
   width: 100%;
   transition: 0.4s;
+}
+.NAV-Active {
+  color: yellow;
+}
+.NAV-Not-Active {
+  color: blue;
 }

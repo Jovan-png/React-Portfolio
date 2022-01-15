@@ -19,8 +19,10 @@ const tab = ["About", "Contact", "Projects", "Resume"]
           <a
             href={'#' + tabs.toLowerCase()}
             onClick={() => props.handlePageChange(tabs)}
-            className={"NAV-LI"
+            className={props.currentPage === tabs ? 'NAV-Active' : 'NAV-Not-Active'
+            
             }
+            
           >
             {tabs}
           </a>
