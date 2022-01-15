@@ -1,7 +1,10 @@
 * {
   padding: 0;
 }
-
+a,
+a:active {
+  text-decoration: none;
+}
 body {
   margin: 0;
 
@@ -87,9 +90,16 @@ code {
   width: 100%;
   transition: 0.4s;
 }
-.NAV-Active {
-  color: yellow;
-}
+
 .NAV-Not-Active {
-  color: blue;
+  color: #fff;
+}
+
+.NAV-Active {
+  color: #ee6767;
+  transition: 0.8s;
+}
+.NAV-Active:hover::after {
+  width: 100%;
+  transition: 0.4s;
 }
