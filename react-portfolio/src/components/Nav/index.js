@@ -1,18 +1,19 @@
 
 import React, {useState, useEffect} from "react";
 
-
+import heroImg  from "../../assets/jovan.jpg"
 
 function Nav(props){
     
 const tab = ["About", "Contact", "Projects", "Resume"]
     return(
+      <div className="bg-img">
         <header className="header">
             
             <ul>
              <a data-testid="link" href="/">
-                <h1>Jovan </h1>
-                <h1>Norrington</h1>
+                <h1>Jovan  </h1> <h1>   </h1>
+                <h1> Norrington</h1>
             </a>
             {tab.map(tabs => (
         <li className="nav-item" key={tabs}>
@@ -43,7 +44,12 @@ const tab = ["About", "Contact", "Projects", "Resume"]
                 <li className="resume-header">Resume</li> */}
               
            </ul>
+          
         </header>
+        <div className="hero-container">
+        {/* <img src={heroImg}  className="hero-img"  alt="cover"/> */}
+        </div>
+        </div>
     )
 }
 

@@ -1,11 +1,14 @@
 * {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 a,
 a:active {
   text-decoration: none;
 }
 body {
+  background-color: rgb(46, 46, 46);
   margin: 0;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -14,39 +17,40 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.bg-img {
+  background-image: url("./assets/jovan.jpg");
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: 0%;
+  position: relative;
+  transition: 0.5s;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .header {
-  background-color: #5a5a66;
-  padding: 5px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  border-bottom: 3px solid #5a5a66;
+  background-color: rgba(red, green, blue, alpha 0.1);
 }
 .header h1 {
   display: inline-flex;
-  color: #fff;
-  border-style: 1px solid #5a5a66;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #5a5a66;
+  color: rgb(46, 46, 46);
   flex-wrap: wrap;
 }
 .header ul li {
   display: inline;
   list-style: none;
-  color: #fff;
-  background-color: #5a5a66;
+  color: rgb(49, 49, 49);
+  background-color: rgba(red, green, blue, alpha 0.1);
   margin: 0px 20px 18px 20px;
-  padding: 0px 5px 15px 1px;
   text-align: center;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.5s;
 }
 
 .header ul li:hover {
@@ -59,47 +63,80 @@ code {
   transition: 0.4s;
 }
 
-.footer {
+footer {
+  background-color: #5a5a66;
+  display: inline;
   position: absolute;
   bottom: 0;
-  background-color: #5a5a66;
   width: 100%;
+  height: 50px;
 }
-.footer ul {
-  width: 100%;
+.footer {
+  align-items: center;
   text-align: center;
 }
 .footer ul li {
   display: inline;
-  list-style: none;
-  background-color: #5a5a66;
-  margin: 0px 100px 18px 100px;
-  padding: 0px 5px 15px 1px;
-  position: relative;
-  color: #fff;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 15px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 .footer ul li:hover {
-  color: #3b3b3b;
+  color: #ee6767;
   transition: 0.5s;
-}
-.footer ul li:hover::after {
-  width: 100%;
-  transition: 0.4s;
 }
 
 .NAV-Not-Active {
-  color: #fff;
+  color: rgb(46, 46, 46);
 }
 
 .NAV-Active {
   color: #ee6767;
   transition: 0.8s;
+  background-size: 0px;
+  background-color: unset;
 }
 .NAV-Active:hover::after {
   width: 100%;
   transition: 0.4s;
+}
+.hero-container {
+  display: inline;
+}
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 600px;
+  margin-left: 25%;
+  background-color: blue;
+  min-height: 100px;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header ul li {
+    display: flex;
+    list-style: none;
+    margin: 0px 20px 18px 20px;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+  }
+
+  .bg-img {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.5s;
+  }
 }
