@@ -5,7 +5,7 @@ import heroImg  from "../../assets/jovan.jpg"
 
 function Nav(props){
     
-const tab = ["About", "Contact", "Projects", "Resume"]
+const tab = ["About", "Contact", "Project", "Resume"]
     return(
       <div className="bg-img">
         <header className="header">

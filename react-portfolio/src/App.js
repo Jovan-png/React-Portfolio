@@ -5,7 +5,8 @@ import ContactForm from './components/pages/Contact';
 import About from './components/pages/About';
 import Footer from './components/Footer';
 import Resume from './components/pages/Resume';
-import Projects from './components/Project';
+import Project from './components/pages/Project';
+
 
 
 function App() {
@@ -24,8 +25,8 @@ case "Contact":
   return <ContactForm></ContactForm>;
   case "Resume":
   return <Resume></Resume>;
-  case "Projects":
-    return <Projects></Projects>;
+  case "Project":
+    return <Project></Project>;
 
   default: return <About></About>
     }

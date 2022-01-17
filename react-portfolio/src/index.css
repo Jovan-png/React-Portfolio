@@ -54,16 +54,6 @@ code {
   transition: 0.5s;
 }
 
-.header ul li:hover {
-  color: #3b3b3b;
-  transition: 0.8s;
-  cursor: pointer;
-}
-.header ul li:hover::after {
-  width: 100%;
-  transition: 0.4s;
-}
-
 footer {
   background-color: #5a5a66;
   display: inline;
@@ -117,6 +107,26 @@ footer {
   background-color: blue;
   min-height: 100px;
   min-width: 200px;
+}
+
+.about-container {
+  text-align: center;
+}
+.about-container h1 {
+  color: #fff;
+}
+.about-p {
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: fit-content;
+  background-color: #fff;
+  max-width: 700px;
+  min-width: 100px;
+  box-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
 @media only screen and (max-width: 2322px) {
   .bg-img {
