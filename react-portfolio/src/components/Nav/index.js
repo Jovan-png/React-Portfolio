@@ -12,7 +12,7 @@ const tab = ["About", "Contact", "Projects", "Resume"]
             
             <ul>
              <a data-testid="link" href="/">
-                <h1>Jovan  </h1> <h1>   </h1>
+                <h1>Jovan  </h1>
                 <h1> Norrington</h1>
             </a>
             {tab.map(tabs => (
