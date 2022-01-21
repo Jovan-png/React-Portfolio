@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.90568118.css",
-    "main.js": "/static/js/main.d380dbb1.js",
-    "static/js/787.8c081f57.chunk.js": "/static/js/787.8c081f57.chunk.js",
-    "static/media/OldPortfolio.png": "/static/media/OldPortfolio.da34dfcb89989b8c5bd7.png",
-    "static/media/giveaway.png": "/static/media/giveaway.c767af5a3c7c5ea4550c.png",
-    "static/media/jovan.jpg": "/static/media/jovan.2196cf666b09e48a0672.jpg",
-    "index.html": "/index.html",
-    "main.90568118.css.map": "/static/css/main.90568118.css.map",
-    "main.d380dbb1.js.map": "/static/js/main.d380dbb1.js.map",
-    "787.8c081f57.chunk.js.map": "/static/js/787.8c081f57.chunk.js.map"
+    "main.css": "/React-Portfolio/static/css/main.34180442.css",
+    "main.js": "/React-Portfolio/static/js/main.7f1fe2db.js",
+    "static/js/787.8c081f57.chunk.js": "/React-Portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/OldPortfolio.png": "/React-Portfolio/static/media/OldPortfolio.da34dfcb89989b8c5bd7.png",
+    "static/media/giveaway.png": "/React-Portfolio/static/media/giveaway.c767af5a3c7c5ea4550c.png",
+    "static/media/jovan.jpg": "/React-Portfolio/static/media/jovan.2196cf666b09e48a0672.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.34180442.css.map": "/React-Portfolio/static/css/main.34180442.css.map",
+    "main.7f1fe2db.js.map": "/React-Portfolio/static/js/main.7f1fe2db.js.map",
+    "787.8c081f57.chunk.js.map": "/React-Portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90568118.css",
-    "static/js/main.d380dbb1.js"
+    "static/css/main.34180442.css",
+    "static/js/main.7f1fe2db.js"
   ]
 }
