@@ -9,7 +9,7 @@ function Resume(){
     return(
         <section>
             <div className="resume-container">
-               <p>For a copy of my Resume </p> <a href={giveaway} download>Click Here</a>
+               <p>For a copy of my Resume </p> <a href='/' >Click Here</a>
             </div>
         </section>
     )
