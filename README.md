@@ -5,6 +5,7 @@
 ## Description
 
 This is a remake of my original portfolio only this time I made it on react.
+Here is a Direct Link to the gh page. https://jovan-png.github.io/React-Portfolio/
 
 ## Tables Of Contents
 
@@ -26,6 +27,7 @@ If you have any additional questions please reach me at
 norringtonjovan@gmail.com
 
 ## Preview
+![screenshot](https://user-images.githubusercontent.com/88255194/150462161-51f9029a-7f1e-4286-923b-10a1c37072d8.png)
 
 ## License
 
