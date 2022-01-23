@@ -6,6 +6,7 @@
 a,
 a:active {
   text-decoration: none;
+  color: unset;
 }
 body {
   background-color: #353238;
@@ -165,7 +166,21 @@ footer {
   color: #ee6767;
   transition: 0.5s;
 }
+.git-title {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  background-color: #353238;
+  padding: 1px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 8px rgb(67, 67, 67);
+}
 
+.git-title:hover {
+  color: #ee6767;
+  transition: 0.5s;
+}
 .resume-container {
   text-align: center;
   padding: 15px;
@@ -201,7 +216,7 @@ footer {
 
   .bg-img {
     height: 600px;
-    width: 100%;
+    width: 100\%;
     display: flex;
     flex-wrap: wrap;
     background-size: cover;
