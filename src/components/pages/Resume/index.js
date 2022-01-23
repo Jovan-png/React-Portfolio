@@ -1,6 +1,6 @@
 import react from "react";
 import giveaway from "../../../assets/giveaway.png"
-
+import webResume from '../../../assets/Jovan-Web-Resume'
 
 
 
@@ -9,7 +9,7 @@ function Resume(){
     return(
         <section>
             <div className="resume-container">
-               <p>For a copy of my Resume </p> <a href='/' >Click Here</a>
+               <p>For a copy of my Resume </p> <a href={webResume} download={}>Click Here</a>
             </div>
         </section>
     )
