@@ -17,7 +17,7 @@ function Project(){
             <a href="https://safe-beyond-95818.herokuapp.com/"><h1 > Giveaway App</h1></a>
             </div>
             <div className="git-title">
-            <a><h1 > Github Repo</h1></a>
+            <a href="https://github.com/dylan-fair/give-away"><h1 > Github Repo</h1></a>
             </div>
         </div>
 
