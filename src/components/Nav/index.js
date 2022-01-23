@@ -11,7 +11,7 @@ const tab = ["About", "Contact", "Project", "Resume"]
         <header className="header">
             
             <ul>
-             <a data-testid="link" href="/">
+             <a data-testid="link">
                 <h1>Jovan  </h1>
                 <h1> Norrington</h1>
             </a>
