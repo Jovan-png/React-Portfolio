@@ -1,5 +1,5 @@
 import react from "react";
-
+import jovanImg from '../../../assets/Jovan-Img.jpg'
 
 
 function About(){
@@ -7,6 +7,7 @@ function About(){
         <div className="about-container">
             <h1>About Me</h1>
             <center>
+                <img  className ='jovan-img' src={jovanImg}></img>
            <div className="about-p">
             <p> My my full name is, Jovan Dupree Norrington Jr. I was born on the 15th of January in the year 1999.
 I'm 22 :) I started messing with code when I was younger making bot scripts and things on online games I use to play like ClubPenguin.
