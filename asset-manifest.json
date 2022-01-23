@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.34180442.css",
-    "main.js": "/React-Portfolio/static/js/main.7f1fe2db.js",
+    "main.css": "/React-Portfolio/static/css/main.0d078e36.css",
+    "main.js": "/React-Portfolio/static/js/main.ec4e622f.js",
     "static/js/787.8c081f57.chunk.js": "/React-Portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/OldPortfolio.png": "/React-Portfolio/static/media/OldPortfolio.da34dfcb89989b8c5bd7.png",
     "static/media/giveaway.png": "/React-Portfolio/static/media/giveaway.c767af5a3c7c5ea4550c.png",
+    "static/media/finance.png": "/React-Portfolio/static/media/finance.0c96559211856791b693.png",
     "static/media/jovan.jpg": "/React-Portfolio/static/media/jovan.2196cf666b09e48a0672.jpg",
+    "static/media/Jovan-Img.jpg": "/React-Portfolio/static/media/Jovan-Img.001ce523c1eb48174ef2.jpg",
+    "static/media/Jovan-Web-Resume-2022.png": "/React-Portfolio/static/media/Jovan-Web-Resume-2022.96173a96ad34e8bb31bc.png",
+    "static/media/weather.png": "/React-Portfolio/static/media/weather.009a5ee0e750e90e92a6.png",
+    "static/media/gpass.png": "/React-Portfolio/static/media/gpass.21dc84e7d199055b0c9c.png",
+    "static/media/note.png": "/React-Portfolio/static/media/note.1e05e17e8926da89634f.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.34180442.css.map": "/React-Portfolio/static/css/main.34180442.css.map",
-    "main.7f1fe2db.js.map": "/React-Portfolio/static/js/main.7f1fe2db.js.map",
+    "main.0d078e36.css.map": "/React-Portfolio/static/css/main.0d078e36.css.map",
+    "main.ec4e622f.js.map": "/React-Portfolio/static/js/main.ec4e622f.js.map",
     "787.8c081f57.chunk.js.map": "/React-Portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34180442.css",
-    "static/js/main.7f1fe2db.js"
+    "static/css/main.0d078e36.css",
+    "static/js/main.ec4e622f.js"
   ]
 }
